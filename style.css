@@ -1,0 +1,47 @@
+body{
+  background-image: url(https://avatars.mds.yandex.net/get-pdb/1884734/7a507974-3830-4a75-a813-4b1102d57f42/orig);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-color: #000;
+}
+
+h1, h2{
+  color: aliceblue;
+}
+
+.container{
+  margin-top: 50px;
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.game-field:hover{
+  cursor: pointer;
+  opacity: 80%;
+  transition: .5s;
+}
+
+h1{
+  text-align: center;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.btn{
+  margin: 0 auto;
+  margin-top: 20px;
+}
